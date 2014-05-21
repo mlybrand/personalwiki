@@ -3,7 +3,7 @@ Set up an instance of Gollum on my local machine that I can use as a wiki to tak
 In any event, Gollum doesn't install on windows, so I had to spin up a vm.  Once the vm was up and the port shared, it all seemed good.  However, I had to configure the vagrant box in the following manner:
 
 `
-sudo apt-get update
+sudo apt-get update\n
 sudo apt-get install -y curl
 \curl -L https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
