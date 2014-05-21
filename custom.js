@@ -1,2 +1,2 @@
-var links = document.getElementsByName("a");
-console.log(links);
+var links = document.getElementsByTagName("a");
+console.log(links[0].attr("href"));
