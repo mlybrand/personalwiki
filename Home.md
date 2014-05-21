@@ -1,1 +1,1 @@
-This is a test.
+We should be able to change the content of these files.
