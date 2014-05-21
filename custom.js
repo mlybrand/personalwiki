@@ -1,2 +1,6 @@
 var links = document.getElementsByTagName("a");
-console.log(links[0].attr("href"));
+for(var i in links) {
+  var h = links[i].href;
+  links[i].href = h.replace(/\.md$/, "");
+}
+
